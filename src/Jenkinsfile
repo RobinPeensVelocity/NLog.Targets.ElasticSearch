@@ -1,0 +1,7 @@
+@Library('JenkinsPipeline') _
+BuildService ([
+	"serviceName" : "VT.MS.ClientService",
+	"nugets" : "VT.MS.ClientService.Client,VT.MS.ClientService.Models,VT.MS.ClientService.Events",
+	"exportModelsNpm" : true,
+	"octoProjects" : "TradeDesk - MS.ClientService,TradeDesk - MS.CleanClientService"
+])
