@@ -8,11 +8,7 @@
     <PackageTags>NLog logging target log elasticsearch elastic search</PackageTags>
     <Authors>ReactiveMarkets</Authors>
     <Company>ReactiveMarkets</Company>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <SignAssembly>true</SignAssembly>
-    <DelaySign>false</DelaySign>
     <AssemblyOriginatorKeyFile>NLog.Targets.ElasticSearch.snk</AssemblyOriginatorKeyFile>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
