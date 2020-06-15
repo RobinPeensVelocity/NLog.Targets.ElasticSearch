@@ -2,5 +2,5 @@
 BuildService ([
 	"serviceName" : "",
 	"nugets" : "NLog.Targets.ElasticSearch",
-	"testProject" : "NLog.Targets.ElasticSearch.Tests"
+	"testProject" : false
 ])
